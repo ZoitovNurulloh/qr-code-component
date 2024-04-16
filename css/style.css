@@ -122,15 +122,12 @@ input:-webkit-autofill:focus {
   display: block;
   margin-bottom: 24px;
   background-color: rgb(44, 125, 250);
+  border-radius: 10px;
 }
 
 .card__img {
-  display: block;
   border-radius: 10px;
-
-}
-
-.card__content {
+  display: block;
 }
 
 .card__title {

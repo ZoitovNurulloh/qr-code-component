@@ -30,6 +30,11 @@
 
 /* CUSTOM PROPS */
 
+:root {
+  --dark-navy:rgb(31, 49, 79);
+  --grey:rgb(125, 136, 158);
+  --light-grey:rgb(213, 225, 239);
+}
 
 /* GLOBAL */
 
@@ -49,29 +54,18 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-color: #fff;
-  color: #222;
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  background-color: var(--light-grey);
+  color: var(--grey);
+  font-family: "Outfit", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.19px;
 }
 
 img {
   max-width: 100%;
   height: auto;
 }
-
-/* CONTAINER */
-
-.container {
-  width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 
 /* VISUALLY-HIDDEN */
 

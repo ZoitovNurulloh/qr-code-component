@@ -52,8 +52,10 @@ html {
 
 body {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100%;
+  padding: 16px;
   background-color: var(--light-grey);
   color: var(--grey);
   font-family: "Outfit", "Arial", sans-serif;
@@ -103,6 +105,44 @@ input:-webkit-autofill:focus {
 
 .main-content {
   flex-grow: 1;
+}
+
+
+/* CARD */
+.card {
+  width: 320px;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+}
+
+.card__link {
+  display: block;
+  margin-bottom: 24px;
+  background-color: rgb(44, 125, 250);
+}
+
+.card__img {
+  display: block;
+  border-radius: 10px;
+
+}
+
+.card__content {
+}
+
+.card__title {
+  margin-bottom: 16px;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0;
+  color: var(--dark-navy);
+}
+
+.card__info {
+  margin-bottom: 24px;
 }
 
 
